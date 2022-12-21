@@ -1,0 +1,37 @@
+name: RFMXLegacy
+version: '${project.version}'
+main: snw.rfmx.legacy.Main
+api-version: 1.16
+depend: [ RunForMoney ]
+author: SNWCreations
+description: The legacy (also universal) version of RFMX (RFM eXtended)
+website: https://github.com/SNWCreations
+
+commands:
+  forceout:
+    permission: op
+    permission-message: "You don't have permission to do that!"
+  forceoutbatch:
+    permission: op
+    permission-message: "You don't have permission to do that!"
+  clearcoin:
+    permission: op
+    permission-message: "You don't have permission to do that!"
+  hunternomove:
+    permission: op
+    permission-message: "You don't have permission to do that!"
+  rrt:
+    permission: op
+    permission-message: "You don't have permission to do that!"
+  reverse:
+    permission: op
+    permission-message: "You don't have permission to do that!"
+  addmoney:
+    permission: op
+    permission-message: "You don't have permission to do that!"
+  setcoinpersecond:
+    permission: op
+    permission-message: "You don't have permission to do that!"
+  rfmrandom:
+    permission: op
+    permission-message: "You don't have permission to do that!"
